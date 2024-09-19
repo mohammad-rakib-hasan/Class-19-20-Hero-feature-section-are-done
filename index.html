@@ -3,33 +3,38 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Lading Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-
   </head>
   <body class="home">
+    <div class="hero bg-dark text-center">
+      <a href="#contact" class="btn-primary-header">Scroll Contact</a>
+  </div>
       <!-- service stard -->
-<section class="services py-5 bg-light" id="Services">
+<section class="services py-5 bg-dark " id="Services">
   <div class="container">
     <div class="text-center my-5">
-      <h1 class="font" data-aos="fade-up" data-aos-offset="200">Our <span class="text-primary">Services</span></h1>
-      <hr class="w-25 m-auto" />
+      <h1 class="font" data-aos="fade-up" data-aos-offset="200" > <span class="text-light">Our</span> <span class="text-info">Facility</span></h1>
+      <hr class="w-25 m-auto text-info p-3" />
     </div>
-  <div class="row" data-aos="zoom-in-up" data-aos-offset="200">
+  <div class="row" >
     <div class="col-sm-12 col-md-4 col-lg-4 col-12">                                        
       <div class="card table">
         <div class="card-body">
-          <img src="image/g1.jpg" class="mb-3" height="40px" width="40px" alt="">
+          <img src="image/life.jpg" class="mb-4" height="40px" width="40px" alt="">
           <!-- <i class="fa-solid fa-palette bg-primary p-2 text-white rounded"></i> -->
-          <h5 class="card-title">Graphics Design</h5>
-          <p class="card-text">Full-service design' means that the design agency can provide a large range of services. 
-            These can range from brochure design to website design. Agencies will differ slightly on what they provide. 
-            But you'll normally find their services on a service page on their website</p>
+          <h5 class="card-title">Lifetime Support</h5>
+          <p class="card-text">Webcoder-IT and its students share a lifetime bond. 
+            We strengthen our bond with you by providing lifelong support that helps 
+            you overcome any problem in your career path even after completing your course.
+             Our expert support team ensures 24-hour service to all of our students. 
+             The personalized feedback that you receive from us, helps you grow, every day</p>
           <a href="#" class="btn  design">Click For Details</a>
         </div>
       </div>
@@ -37,12 +42,13 @@
     <div class="col-sm-12 col-md-4 col-lg-4 col-12">
       <div class="card table">
         <div class="card-body">
-          <img src="image/d2.jpg" class="mb-3" height="40px" width="40px" alt="">
+          <img src="image/career.jpg" class="mb-5" height="40px" width="40px" alt="">
           <!-- <i class="fa fa-users p-2 text-white rounded"></i> -->
-          <h5 class="card-title">Digital Marketing</h5>
-          <p class="card-text">Digital marketing, also called online marketing, is the promotion of brands to connect with potential customers 
-            using the internet and other forms of digital communication. This includes not only email, social media, and web-based advertising,
-             but also text and multimedia messages as a marketing.</p>
+          <h5 class="card-title">Career Placement Support</h5>
+          <p class="card-text">Our career placement department is ready to help you find a lucrative job.
+             We ensure your resume gets into the hands of the right hiring manager.  
+             So far this department has helped more than 16000 students to find jobs in competitive global platforms.
+              Promising a better future, we have successfully raised the job placement rate to 66% in 2023.</p>
           <a href="#" class="btn  design">Click For Details</a>
         </div>
       </div>
@@ -50,67 +56,102 @@
     <div class="col-sm-12 col-md-4 col-lg-4 col-12">
       <div class="card table">
         <div class="card-body">
-          <img src="image/u3.jpg" class="mb-3" height="40px" width="40px" alt="">
+          <img src="image/class.jpg" class="mb-5" height="40px" width="40px" alt="">
           <!-- <i class="fa-solid fa-pen-nib p-2 text-white rounded"></i> -->
-          <h5 class="card-title">UI/UX Design</h5>
-          <p class="card-text">When UX helps users accomplish their goals, UI creates a
-             connection between the user and the service provider.
-             Our UI designers aim to build keen brand awareness to 
-             help your company improve customer satisfaction, improve user 
-             interaction, as well as boost your business grow and enhance.</p>
+          <h5 class="card-title">Class Videos</h5>
+          <p class="card-text">No need to worry if you miss a topic in the class. 
+            We record most of our classes so that students who miss a session can still get the information they need. 
+            They can watch the videos again and again until they understand the topic thoroughly. 
+            Our motto is to provide you a flexible learning experience to gradually improve your competence.</p>
           <a href="#" class="btn  design">Click For Details</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="row mt-3" data-aos="zoom-in-down" data-aos-offset="200">
-    <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-      <div class="card table">
-        <div class="card-body">
-          <img src="image/f5.jpg" class="mb-3" height="40px" width="40px" alt="">
-          <!-- <i class="fa-solid fa-mobile p-2 text-white rounded"></i> -->
-          <h5 class="card-title">Mobile Application</h5>
-          <p class="card-text">A Service is an application component that can perform long-running
-             operations in the background.It does not provide a user interface. Once started, a service 
-             might continue running for some time, even after the user switches to another application.</p>
-          <a href="#" class="btn  design">Click For Details</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-      <div class="card  table">
-        <div class="card-body">
-          <img src="image/4.jpg" class="mb-3" height="40px" width="55px" alt="">
-          <!-- <i class="fa-solid fa-code p-2 text-white rounded"></i> -->
-          <h5 class="card-title">Frontend Development</h5>
-          <p class="card-text">What are web design services? A web design service provides you with a
-             customized website design that's perfect for your business or personal site. They'll work 
-             with you to create a design that matches your brand, while giving your customers a seamless user.</p>
-          <a href="#" class="btn  design">Click For Details</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-12 col-md-4 col-lg-4 col-12">
-      <div class="card table">
-        <div class="card-body">
-          <img src="image/w6.jpg" class="mb-3" height="40px" width="40px" alt="">
-          <!-- <i class="fa-solid fa-laptop-code p-2 text-white rounded"></i -->
-          <h5 class="card-title">Web Development</h5>
-          <p class="card-text">Web development refers to building, creating, and maintaining websites. 
-            It includes aspects such as web design, web publishing, web programming, and database management.
-             While the terms "web developer" and "web designer" are often used </p>
-          <a href="#" class="btn  design">Click For Details</a>
-        </div>
-      </div>
-    </div>
-  </div>
+ </section>
  <!-- service end -->
+  <!-- course stard -->
+  <section class="services py-5 bg-dark">
+    <div class="container">
+      <div class="text-center my-5 services2">
+        <h1 class="font" data-aos="fade-up" data-aos-offset="200"> <span class="text-light">Set Your</span> <span class="text-info">Course</span></h1>
+        <p class="text-light p-2" data-aos="fade-down" data-aos-offset="200">One Time Learning Insha-Allah Life Time Earning</p>
+      <hr class="w-25 m-auto text-info p-3" />
+      </div>
+      <div class="row text-center" >
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">                                        
+          <div class="card text-dark body11" >
+            <div class="card-body">
+              <i class="fas fa-drafting-compass  p-2 text-white rounded mt-5 mb-3 body22"></i>
+              <h5 class="card-title">Advanced Digital Marketing</h5>
+              <p class="card-text">3 courses 2 workshops</p>
+                         <a href="#" class="btn  design2">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card text-dark body11">
+            <div class="card-body">
+              <i class="fas fa-code  p-2 text-white rounded mt-5 mb-3 body22"></i>
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">1 courses 3 workshops</p>
+                         <a href="#" class="btn  design2">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card text-dark body11" >
+            <div class="card-body">
+              <i class="fas fa-book  p-2 text-white rounded mt-5 mb-3 body22"></i>
+              <h5 class="card-title">Communication English</h5>
+              <p class="card-text">
+                1 courses 1 workshops</p>
+                         <a href="#" class="btn  design2">View Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 text-center">
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card text-dark body11" >
+            <div class="card-body">
+              <i class="fas fa-book-open  p-2 text-white rounded mt-5 mb-3 body22"></i>         
+              <h5 class="card-title">Learn Quran (Easy Way)</h5>
+              <p class="card-text">1 courses  0 workshops.</p>
+                         <a href="#" class="btn  design2">View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card text-dark body11" >
+            <div class="card-body">
+              <i class="fas fa-project-diagram  p-2 text-white rounded mt-5 mb-3 body22"></i>
+              <h5 class="card-title">ICT</h5>
+              <p class="card-text ">2 courses 0 workshops.</p>
+                         <a href="#" class="btn design2"> View Course</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 col-12">
+          <div class="card text-dark body11">
+            <div class="card-body">
+              <i class="fas fa-business-time  p-2 text-white rounded mt-5 mb-3 body22"></i>
+              <h5 class="card-title">E-Commerce</h5>
+              <p class="card-text">2 courses 2 workshops </p>
+                         <a href="#" class="btn  design2"> View Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- course end -->
        <!-- contact stard  -->
-        <section>
-            <div class="container py-5">
+        <section class=" contact py-5 bg-dark" id="contact" >
+            <div class="container">
                 <div class="text-center my-5">
-                    <h1 class="font">Contact<span class="text-primary"> Me</span></h1>
-                    <hr class="w-25 m-auto" />
+                    <h1 class="font" data-aos="fade-up" data-aos-offset="200"><span class="text-light">Contact</span> <span class="text-info">Me</span></h1>
+                    <hr class="w-25 m-auto text-info" />
                   </div>
                 <form action="">
                  <div class="mb-4">
@@ -120,42 +161,40 @@
                     <input type="Your Password" class="form-control" name="Password" id="Password" placeholder="Your Password" required>
                  </div>
                  <div class="mb-4">
-                    <textarea  class="form-control" name="" id="" rows="8" cols="40" placeholder="Enter Your Type" required> </textarea>
+                    <textarea   class="form-control" name="" id="" rows="5" cols="20" placeholder="Enter Your Type" required> </textarea>
                  </div>
-                 <button type="submit" class="btn btn-primary our1">Submit</button>
+                 <button type="submit" class="btn btn-warning our1">Submit</button>
              </form>
          </div>
     </section>
  <!-- contact end -->
-  <!-- footer stard  -->
-   <footer>
-    <div class="container">
-        <div class="last-part">
-            <div class="footer-logo">
-                <img src="" > 
-            </div>
-        <div class="social-logo">
-            <a href="#"><i class="fa-solid fa-envelope"></i>  bdprakib10@gmail.com</a>
-    </div>
-         <div class="social-logo">
-                <a href=""><i class="fa-solid fa-phone"></i>  +8801991854563</a>
-</div>
-      <div class="social-logo">
-           <a href=""><i class="fa-solid fa-phone"></i> +8801831686625</a> 
-</div> <br>
-          <div class="social-logo-1">
-                 <a href="https://www.facebook.com/Bd.p.Rakib.Rjs"><i class="fa-brands fa-facebook"></i></a>     
-                       <a href="https://www.instagram.com/_rakib_bhai_38/?hl=en"><i class="fa-brands fa-instagram"></i></a>
-   </footer>
-  <!-- footer end -->
-<!-- end of stard  -->
-                     <nav class="navbar bg-body-tertiary ">
-                              <div class="container-fluid">
-                                   <a class="navbar-brand service"> <p>&copy2024 Webcoder-it</p> </a>     
-                                </div>
-                           </nav>
-                      
-          <!-- end of end -->
+    <!-- Footer stard -->
+     <footer class="footer bg-dark-subtle">
+      <div class="container">
+        <div class="footer1" data-aos="fade-up" data-aos-offset="200">
+          <div class="footer-logo">
+            <img src="image/webcoder.jpg.png">
+          </div>
+          <div class="social-logo">
+            <div class="social-logo">
+            <a href=""><i class="fa-solid fa-envelope me-3"></i>bdprakib10@gmail.com</a> </div>
+             <div class="social-logo">
+            <a href=""><i class="fa-solid fa-phone me-2"></i> +8801991854563</a> </div>
+            <div class="social-logo">
+            <a href=""><i class="fa-solid fa-phone me-2"></i> +8801831686625</a> </div>
+            <div class="social-logo1 mt-3">
+            <a href="https://www.facebook.com/Bd.p.Rakib.Rjs"><i class="fa-brands fa-facebook me-2"></i></a>
+            <a href="https://www.instagram.com/_rakib_bhai_38/?hl=en"><i class="fa-brands fa-instagram"></i></a> </div>
+          </div>
+        </div>
+        <p class="text-center mt-5 end">&copy 2024 Webcoder-IT Institute</p>
+      </div>
+     </footer>  
+   <!-- footer end -->
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
-</html>
+</html> 
